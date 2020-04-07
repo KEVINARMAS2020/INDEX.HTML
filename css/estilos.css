@@ -1,0 +1,293 @@
+*{
+	margin: 0;          /* este el el margen*/
+	padding: 0;			/* este es el relleno*/
+
+}
+
+
+header {
+	background: #f1c71f;
+	border-radius:;
+	max-width: auto;
+	text-align: center;
+	padding: 2%;
+   border-bottom: 0.25em solid #07517c ;
+}	
+	
+ nav.menu, li, a{
+ 		display:inline-block; ;
+ 		text-decoration: none;
+ 		margin-left:;
+		 	
+}
+
+
+
+/*------------------------------------------------*/
+
+nav, a.menu{
+text-decoration:none;
+display: block;
+background: ;
+
+
+}
+
+ ul li .hijos {
+display:none;
+position:absolute;
+z-index:1000;
+}
+
+header nav ul li:hover  .hijos {
+background:#f5b71f; /*color de fondo de menu desplegable*/
+border: 0.05em solid #987317;
+margin-top:1px;
+display:block;
+position:absolute;
+
+}
+img.logo{
+	width: 5%;
+	float: left;; 
+margin-top:-1%}
+
+nav:hover .hijos{
+width:10%;
+margin-left:;
+padding-top: 0.25em;
+min-height: auto;
+}
+
+
+
+/*SUB MENU CUANDO SE POSICIONAN EL PUNTERO*/
+
+
+
+/*
+ul.submenu{display: none;}
+
+ul.submenu :hover{
+	display: block;
+	float:none;
+
+}
+
+a.menu{
+	color:black;
+	display: block;
+}
+li.menu{background: ;
+	margin-left: 3%;
+	margin-right:0%;
+}
+li:hover{
+	background: #329fd2;
+}
+
+ul.submenu li:hover {
+
+display:block;
+position:absolute;
+
+}
+
+
+
+nav.menu{background: ;
+width: 54%;
+margin-left: 0%;
+margin-top: 1%
+margin-left 0.39em black
+border-radius:0.39 em;}	
+
+body {
+background: WITHE url();
+color: #fff;
+font-family: ;
+font-size: 2em;      /*medidas: 1em = a 16px = 12pt en word = 100% */
+}
+
+/*h1{
+	color: #f60;
+	margin: 0.25em auto; /*auto se usa para centrar	text-align: center;
+	text-shadow: 5px  5px 10px rgba(255,255,255,0.25);  (1 el fecto de sombra distancia texto eje X= 5px y eje Y=5PX)
+	                                                       (2 blur efecto desenfocado = 10px ) (rgba= transparencia 255,255,255,opasidad es =0.25)*/
+	
+h2#article{
+color: #ffffff;
+}	
+	
+
+Body{
+	background:#ebebeb;
+}
+section#contenedor {
+	padding: 0;
+	text-align: center; /*contenido centrado*/
+}
+
+section#principal {
+	border-radius: 0.56em;
+	margin-top:1%;
+	background: #bd932c;
+	display: inline-block; /* el display etributo que nos dice como se va a motrar la dispocicion del elemento block= en bloque 							inline-block =elemento en linea todo lo que este despues de el sera en bloque */
+
+	padding: 0.25em;
+	text-align: center;	
+	vertical-align: top;   /*alinea los cuadros*/
+	width: 68%;
+	height:auto;
+}
+article {
+	background: #fff;
+
+	 width:100%
+
+	}
+	  
+	
+	
+aside {
+	border-radius: 0.56em;
+	background: #fff;
+	border-bottom: 0.25em solid #f1c71f;
+	border-top: 0.25em solid #f1c71f;
+	margin-top:1%;
+	display: inline-block; 
+	height:auto;
+
+	 /*background: url("../img/fondo_aside.png");*/
+
+	min-height: 200px;     /*este es la altura mìnima*/
+	padding: 0.25em;
+	text-align: center;	
+	vertical-align: top;   /*alinea los cuadros*/
+	width: 27%;	 }
+
+	footer {
+	background: black;
+	max-width: auto;
+	text-align: center;
+	margin-top:1%; 
+	color: white;
+	font-family: 'Comfortaa', cursive;
+font-family: 'Noto Serif JP', serif
+padding:3%;
+}
+
+
+
+img.footer{
+width: 10%;
+margin:1%;
+}
+
+
+img.social{
+	width: 15%;
+}
+img.linea{
+	width: 1%;
+	height:2em;}
+
+img.line_horizontal{
+	width: 90%;
+	height: 0.25em;
+}	
+
+img.img_in_article{
+
+	width:80%;
+}
+img.perfil{
+	width:60%;
+	border-radius: 20em;
+	margin:2%;
+	margin-left:20%;
+	margin-right:-10%;
+	float: center;
+	margin-top: 3%;
+
+}
+
+div.perfil{
+	
+	
+	width: 25%;
+
+}
+
+section#container_texto_perfil{
+
+width:72%;
+margin-left:1%;
+
+
+
+}
+
+div.perfil, section#container_texto_perfil{
+	display: inline-block;
+}
+
+p.redsocial{
+	font-size: 3em;
+}
+img.social_perfil, p.redsocial{
+	display: inline-block;
+}
+
+img.social_perfil{width: 10%}
+h3{
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.5em;
+	color: #bd932c;
+	padding-top:1%;
+
+}	
+
+h6{
+	font-family: 'Martel', serif;
+font-family: 'Comfortaa', cursive;	
+	font-size:1em;
+	color:#74550a;
+}
+h6.menu{
+font-family: 'Martel', serif;
+font-family: 'Comfortaa', cursive;
+color:#74550a;
+margin-bottom:1%;
+font-size: 1em}
+
+h5{color:black;
+
+font-family: 'Comfortaa', cursive;
+font-family: 'Noto Serif JP', serif;}
+
+p{color: black;
+font-size:1.4em ;
+font-family: 'Dosis', sans-serif; /*parrafo general*/
+padding: 1%;
+padding-left: 2%;
+padding-right: 2%;
+}
+
+P.citas{
+	font-family: 'Satisfy', cursive; /*fuente de citas bibliográficas*/
+	font-size: 0.60em;
+}
+div.p{text-align: justify;
+}
+section#baner{
+	width: 900px;
+	background: blue;
+	width:600px;}
+
+	div.franja{
+		background: red;
+	}
+
+
+
