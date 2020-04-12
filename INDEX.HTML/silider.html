@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Slider Responsive</title>
+	<link rel="stylesheet" href="flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+    	touch: true,
+    	pauseOnAction: false,
+    	pauseOnHover: false,
+    });
+  });
+</script>
+</head>
+<body>
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="imagenes/1.jpg" alt="">
+				<section class="flex-caption">
+					<p>LOREM IPSUM 1</p>
+				</section>
+			</li>
+			<li>
+				<img src="imagenes/2.jpg" alt="">
+				<section class="flex-caption">
+					<p>LOREM IPSUM 2</p>
+				</section>
+			</li>
+			<li>
+				<img src="imagenes/3.jpg" alt="">
+				<section class="flex-caption">
+					<p>LOREM IPSUM 3</p>
+				</section>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
